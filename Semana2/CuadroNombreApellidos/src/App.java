@@ -19,25 +19,22 @@ public class App {
 
         String formatoFila = "* %-" + anchoCol1 + "s * %-" + anchoCol2 + "s *%n"; 
 
-        // Imprimir borde superior
-        for (int i = 0; i < totalAsteriscos; i++) { 
-            console.printf("*"); 
-        }
-        console.printf("\n"); // Salto de línea al acabar los asteriscos
-        
-        // Fila 1: Cabeceras
-        console.printf(formatoFila, "Nombre", "Apellidos");
-        
-        // Imprimir borde medio
         for (int i = 0; i < totalAsteriscos; i++) { 
             console.printf("*"); 
         }
         console.printf("\n");
         
-        // Fila 2: Datos del usuario
+        // Fila 1
+        console.printf(formatoFila, "Nombre", "Apellidos");
+        
+        for (int i = 0; i < totalAsteriscos; i++) { 
+            console.printf("*"); 
+        }
+        console.printf("\n");
+        
+        // Fila 2
         console.printf(formatoFila, nombre, apellidos);
         
-        // Imprimir borde inferior
         for (int i = 0; i < totalAsteriscos; i++) { 
             console.printf("*"); 
         }
