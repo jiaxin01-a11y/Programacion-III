@@ -6,7 +6,7 @@ public class App {
 
         System.out.println("Programa que escoge el mayor de entre 3 números");
         System.out.println("-----------------------------------------------\n");
-        System.out.println("Introduce el primer número: ")
+        System.out.println("Introduce el primer número: ");
         int num1 = sc.nextInt();
         System.out.println("Introduce el segundo número: ");
         int num2 = sc.nextInt();
